@@ -1,1 +1,56 @@
-jamessss-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beanly Coffee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Beanly ☕</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div>
+            <h1>Good coffee.<br>Good mood.</h1>
+
+            <p>
+                Fresh coffee, delicious pastries,
+                and a cozy place to enjoy your day.
+            </p>
+
+            <button onclick="orderCoffee()">
+                Order Now
+            </button>
+        </div>
+
+        <div class="coffee">
+            ☕
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Why Beanly?</h2>
+        <p>
+            We serve freshly brewed coffee made
+            from carefully selected beans.
+        </p>
+    </section>
+
+    <footer id="contact">
+        <p>© 2026 Beanly Coffee</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
